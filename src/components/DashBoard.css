@@ -1,0 +1,58 @@
+.DashBoard{
+    text-align: center;
+    align-items: center ;
+    width: 80%;
+    height: 100vh;
+    /* background-color: aqua; */
+    border-radius: 15px;
+}
+.duration-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.duration-option button{
+    color: gray;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+    width: max-content;
+    background-color: rgba(240, 240, 240, 0.552);
+    border-radius: 10px;
+    border: transparent;
+  
+  }
+.topbar2{
+    display: flex;
+    font-display: row;
+}
+.backbutton button{
+    font-weight: 500;
+    border: transparent ;
+    background-color: transparent;
+    height: 100%;
+}
+.Stock-info{
+    width: 100%;
+    /* display: flex; */
+    
+}
+.stockname img{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.stockname,.amount-info{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.SummaryCard,.SupportCard{
+    width: 47%;
+    border-radius: 10px;
+    height: 50vh;
+    background-color: aqua;
+}
