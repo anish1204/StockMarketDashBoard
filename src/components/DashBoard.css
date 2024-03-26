@@ -49,10 +49,59 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 8%;
 }
-.SummaryCard,.SupportCard{
+.SummaryCard,.SupportCard,.Averages,.Oscillators{
     width: 47%;
     border-radius: 10px;
-    height: 50vh;
-    background-color: aqua;
+    /* height: 56vh; */
+    height: auto;
+    /* background-color: aqua; */
 }
+.background-blue{
+    background-color: rgb(44, 195, 255);
+}
+.background-white{
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: rgba(208, 208, 208, 0);
+    }
+    .topbar2{
+        align-items: center;
+        text-align: center;
+    }
+    .section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .stockname,.amount-info{
+        margin-top: 6%;
+        justify-content: center;
+    }
+    .Stock-info{
+        text-align: center;
+    }
+    .SummaryCard,.SupportCard,.Averages,.Oscillators{
+        width: auto;
+        border-radius: 10px;
+        height: auto;
+        margin-top: 3%;
+        /* background-color: aqua; */
+    }
+    .right-side{
+        width: 50%;
+    }
+    .Inner-hover{
+        padding-top: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 400) {
+    body {
+      background-color: rgba(249, 16, 16, 0);
+    }
+    
+  }
